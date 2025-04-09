@@ -3,12 +3,8 @@
 import google.generativeai as genai
 
 # ✅ Replace with your actual Google API Key
-genai.configure(api_key="AIzaSyCjKkbRAiiIWj67nPh0tvflggr4OPRh-Fc")
-
-# ✅ Use correct Gemini model name
+genai.configure(api_key="google_api_key")
 model = genai.GenerativeModel("models/gemini-1.5-pro") 
-
-
 
 def summarize_article(content):
     try:
