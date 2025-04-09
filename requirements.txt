@@ -1,0 +1,12 @@
+openai
+beautifulsoup4
+requests
+newspaper3k
+python-dotenv
+streamlit
+
+torch
+transformers
+beautifulsoup4
+requests
+newspaper3k
